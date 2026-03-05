@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDoJ_AxpuCwBI04M2Ew58-XRvbwWs2A0vI",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "expense-tracker-pro-f03c5.firebaseapp.com",
   projectId: "expense-tracker-pro-f03c5",
   storageBucket: "expense-tracker-pro-f03c5.firebasestorage.app",
