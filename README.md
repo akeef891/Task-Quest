@@ -38,6 +38,14 @@ Firestore Database
 
 Netlify Deployment
 
+## Installation
+
+```bash
+git clone <repo-link>
+npm install
+npm run dev
+```
+
 📊 Performance Metrics
 Metric	Score
 Performance	96
